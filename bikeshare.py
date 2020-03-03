@@ -7,7 +7,7 @@ import numpy as np
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-              
+
 ### the data was merged and now the data applies
 
 def get_filters():
@@ -141,9 +141,6 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes':
-            break
 
 if __name__ == "__main__":
 	main()
