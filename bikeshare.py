@@ -2,9 +2,13 @@ import time
 import pandas as pd
 import numpy as np
 
+### the following data was given by the programm
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
+              
+### the data was merged and now the data applies
 
 def get_filters():
     cities_list=["chicago", "new york city", "washington"]
