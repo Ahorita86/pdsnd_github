@@ -1,6 +1,9 @@
 ### name of author
 Klaudia Schoeps
 
+### email of author
+klaudischoeps@hotmail.com
+
 ### Date created
 30th march 2020
 
